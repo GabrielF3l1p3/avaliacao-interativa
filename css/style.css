@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsl(213, 19%, 18%);
+    width: 40rem;
+}
+
+
+.display-none {
+    display: none;
+}
+
+.image-star {
+    background-color: rgba(65, 65, 68, 0.645);
+    width: 36px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.text {
+    font-family: 'Overpass';
+    margin: 25px 0px;
+}
+
+h1 {
+    font-family: 'Overpass';
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+p {
+    font-family: 'Overpass';
+    font-size: 1.5rem;
+    color: rgb(121, 132, 150);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.num {
+    color: rgb(121, 132, 150);
+    font-size: medium;
+    background-color: rgba(65, 65, 68, 0.645);
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0px 0px 30px;
+}
+
+button.num:hover {
+    color: white;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.button-active {
+    background-color: hsl(217, 12%, 63%) !important; 
+    color: white !important;
+}
+
+.submit {
+    font-family: 'Overpass';
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+.text-result {
+    text-align: center;
+}
+
+.image-result {
+    margin: 20px;
+}
+
+.select-note {
+    background-color: rgba(65, 65, 68, 0.645);
+    text-align: center;
+    padding: 5px;
+    width: 19em;
+    border-radius: 30px;
+
+}
+
+.select-note p {
+    color: hsl(25, 97%, 53%);
+    line-height: normal;
+}
+
+.error-text {
+    font-family: 'Overpass';
+    font-size: 1rem;
+    color: rgba(255, 0, 0, 0.647);
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.attribution {
+    font-family: 'Overpass';
+    background: #000;
+    font-size: 11px; 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.406);
+}
+.attribution a {
+    color: rgba(65, 65, 68, 0.882);
+    text-decoration: none;
+}
+
+/*Grey ->  rgba(65, 65, 68, 0.645) */
